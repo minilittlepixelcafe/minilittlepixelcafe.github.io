@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'VT323'; 
+  src: local('VT323'),
+       url('./fonts/VT323/VT323-Regular.ttf') format('ttf'), /* Specify the path to your font file */
+}
