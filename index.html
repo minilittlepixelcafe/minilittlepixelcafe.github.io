@@ -21,13 +21,14 @@
 			justify-content: center;
 			align-items: center;
 			/* height: 100vh; /* Optional: To center vertically within the viewport */
+			display:none;
 		}
 		
 		#notch {
-			border-radius: 0% 0% 50px 50px;
+			border-radius: 0% 0% 50px 0%;
 			background-color: #222;
-			width: 400px;
-			height:50px;
+			width: 300px;
+			height:34px;
 		}
 		
         h1 {
@@ -36,7 +37,7 @@
             margin-bottom: -10px;
 			color: #888;
 			font-family: Arial, sans-serif;
-			font-size:30px;
+			font-size:25px;
 			font-family: 'VT323', monospace;
         }
         h2 {
@@ -81,6 +82,14 @@
             .project {
                 width: 100%;
             }
+			
+			.container-notch {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				/* height: 100vh; /* Optional: To center vertically within the viewport */
+				display:block;
+			}
         }
     </style>
 </head>
@@ -152,7 +161,7 @@
         </div>
         <div class="project">
 			<a href="">
-            <img class="thumbnail" src="./imgs/21.png" alt="">
+            <img class="thumbnail" src="./imgs/logo.png" alt="">
 			</a>
             <div class="title"></div>
         </div>
